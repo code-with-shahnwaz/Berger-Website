@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: 0 auto;
+}
+img{
+    /*max-width: 100%;*/
+    height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+  }
+  .logo{
+    margin-left: 50px;
+  }
+ .nav>ul{
+    display: flex;
+ }
+ .nav>ul li{
+    list-style: none;
+ }
+ .nav>ul li a{
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+    margin-right: 50px;
+ }
+ .nav>ul li a:hover{
+    text-decoration: underline blue 2px;
+    transition: all 0.3s ease;
+ }
+ .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.img2>img{
+    border: none;
+    border-radius: 10px;
+}
+.text{
+    text-align: center;
+    margin: 50px;
+}
+.text p{
+    text-align: justify;
+    margin-top: 20px;
+}
+.text h5{
+    margin: 10px 0;
+    font-weight: 400;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.text1{
+    margin: 50px 0px;
+}
+.img3>img{
+    border: none;
+    border-radius: 10px;
+}
